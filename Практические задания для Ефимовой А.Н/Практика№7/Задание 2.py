@@ -1,37 +1,46 @@
-status = input("Введите статус заказа: ")
+import random
 
-print("╔══════════════════════════════╗")
-print("║  📦 СТАТУС ВАШЕГО ЗАКАЗА 📦  ║")
-print("╚══════════════════════════════╝")
-print()
+status = input("Введите статус заказа: ").strip()
 
 match status:
-
     case "pending":
-        print("Статус: В ожидании ⏳")
-        print("Описание: Заказ ожидает обработки")
-        print("Примерное время: 2 ч")
-
+        name = "В ожидании ⏳"
+        description = "Заказ ожидает обработки"
+        time = f"{random.randint(1, 3)} ч"
+        advice = "Дождитесь начала обработки заказа"
     case "processing":
-        print("Статус: В обработке ⚙️")
-        print("Описание: Заказ собирается на складе")
-        print("Примерное время: 1 день")
-
+        name = "В обработке ⚙️"
+        description = "Заказ собирается на складе"
+        time = f"{random.randint(1, 2)}-{random.randint(3, 4)} дня"
+        advice = "Проверьте правильность адреса доставки"
     case "shipped":
-        print("Статус: Отправлено ✈️")
-        print("Описание: Заказ в пути к вам")
-        print("Примерное время: 3 дня")
-
+        name = "Отправлено ✈️"
+        description = "Ваш заказ находится в пути к вам"
+        time = f"{random.randint(2, 3)}-{random.randint(4, 5)} дней"
+        advice = "Следите за уведомлениями о доставке"
     case "delivered":
-        print("Статус: Доставлено ✅")
-        print("Описание: Заказ получен")
-        print("Примерное время: —")
-
+        name = "Доставлено ✅"
+        description = "Заказ получен"
+        time = "—"
+        advice = "Оставьте отзыв о покупке"
     case "cancelled":
-        print("Статус: Отменено ❌")
-        print("Описание: Заказ отменён")
-        print("Примерное время: —")
-
+        name = "Отменено ❌"
+        description = "Заказ отменён"
+        time = "—"
+        advice = "Свяжитесь с поддержкой, если отмена не ваша"
     case _:
-        print(f"❌ Ошибка: Неизвестный статус {status}")
-        print("Доступные статусы: pending, processing, shipped, delivered, cancelled")
+        name = None
+
+print()
+if name is None:
+    print(f'❌ Ошибка: Неизвестный статус "{status}"')
+    print("Доступные статусы: pending, processing, shipped, delivered, cancelled")
+else:
+    print("╔══════════════════════════════╗")
+    print("║  📦 СТАТУС ВАШЕГО ЗАКАЗА 📦  ║")
+    print("╚══════════════════════════════╝")
+    print()
+    print(f"Статус: {name}")
+    print(f"Описание: {description}")
+    print(f"Примерное время: {time}")
+    print(f"Рекомендация: {advice}")
