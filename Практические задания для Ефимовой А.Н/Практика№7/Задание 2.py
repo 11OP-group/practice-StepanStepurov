@@ -1,46 +1,37 @@
-import random
+from random import randint
 
 status = input("Введите статус заказа: ").strip()
 
 match status:
     case "pending":
-        name = "В ожидании ⏳"
-        description = "Заказ ожидает обработки"
-        time = f"{random.randint(1, 3)} ч"
+        name, desc = "В ожидании ⏳", "Заказ ожидает обработки"
+        time = f"{randint(1, 3)} ч"
         advice = "Дождитесь начала обработки заказа"
     case "processing":
-        name = "В обработке ⚙️"
-        description = "Заказ собирается на складе"
-        time = f"{random.randint(1, 2)}-{random.randint(3, 4)} дня"
+        name, desc = "В обработке ⚙️", "Заказ собирается на складе"
+        time = f"{randint(1, 2)}-{randint(3, 4)} дня"
         advice = "Проверьте правильность адреса доставки"
     case "shipped":
-        name = "Отправлено ✈️"
-        description = "Ваш заказ находится в пути к вам"
-        time = f"{random.randint(2, 3)}-{random.randint(4, 5)} дней"
+        name, desc = "Отправлено ✈️", "Ваш заказ находится в пути к вам"
+        time = f"{randint(2, 3)}-{randint(4, 5)} дней"
         advice = "Следите за уведомлениями о доставке"
     case "delivered":
-        name = "Доставлено ✅"
-        description = "Заказ получен"
-        time = "—"
+        name, desc, time = "Доставлено ✅", "Заказ получен", "—"
         advice = "Оставьте отзыв о покупке"
     case "cancelled":
-        name = "Отменено ❌"
-        description = "Заказ отменён"
-        time = "—"
+        name, desc, time = "Отменено ❌", "Заказ отменён", "—"
         advice = "Свяжитесь с поддержкой, если отмена не ваша"
-    case _:
-        name = None
+    case _:  # неизвестный статус: сообщение об ошибке и выход
+        exit(f'❌ Ошибка: неизвестный статус "{status}"\n'
+             "Доступные статусы: "
+             "pending, processing, shipped, delivered, cancelled")
 
-print()
-if name is None:
-    print(f'❌ Ошибка: Неизвестный статус "{status}"')
-    print("Доступные статусы: pending, processing, shipped, delivered, cancelled")
-else:
-    print("╔══════════════════════════════╗")
-    print("║  📦 СТАТУС ВАШЕГО ЗАКАЗА 📦  ║")
-    print("╚══════════════════════════════╝")
-    print()
-    print(f"Статус: {name}")
-    print(f"Описание: {description}")
-    print(f"Примерное время: {time}")
-    print(f"Рекомендация: {advice}")
+print(f"""
+╔══════════════════════════════╗
+║  📦 СТАТУС ВАШЕГО ЗАКАЗА 📦  ║
+╚══════════════════════════════╝
+
+Статус: {name}
+Описание: {desc}
+Примерное время: {time}
+Рекомендация: {advice}""")
