@@ -1,16 +1,9 @@
-# Задача 3. Интерактивное меню кафе
+COFFEE, TEA, JUICE, WATER, LEMONADE = 120, 80, 100, 50, 90  # цены, руб
 
-# Цены (константы)
-COFFEE = 120
-TEA = 80
-JUICE = 100
-WATER = 50
-LEMONADE = 90
+print("1 Кофе ☕ 120 | 2 Чай 🍵 80 | 3 Сок 🧃 100 | "
+      "4 Вода 💧 50 | 5 Лимонад 🥤 90\n")
+choice = input("Введите номер (1-5) или название напитка: ").strip().lower()
 
-print("1 Кофе ☕ 120 | 2 Чай 🍵 80 | 3 Сок 🧃 100 | 4 Вода 💧 50 | 5 Лимонад 🥤 90")
-choice = input("Введите номер (1-5) или название напитка: ").lower()
-
-# Выбор напитка
 match choice:
     case "1" | "кофе":
         name, emoji, price = "Кофе", "☕", COFFEE
@@ -23,23 +16,16 @@ match choice:
     case "5" | "лимонад":
         name, emoji, price = "Лимонад", "🥤", LEMONADE
     case _:
-        print("❌ Ошибка: такого напитка нет в меню")
-        exit()
+        exit("❌ Ошибка: такого напитка нет в меню")
 
-# Проверка количества порций
-count = input("Количество порций: ")
-match count.isdigit():
-    case True:
-        count = int(count)
-    case _:
-        print("❌ Ошибка: введите число")
-        exit()
+count = input("Количество порций: ").strip()
+if not count.isdecimal():  # isdecimal не пропускает символы вроде "²"
+    exit("❌ Ошибка: введите число")
+count = int(count)
 
-# Согласование слова "порция"
-match count:
+match count:  # согласование слова «порция»
     case 0:
-        print("❌ Ошибка: количество должно быть больше 0")
-        exit()
+        exit("❌ Ошибка: количество должно быть больше 0")
     case 1:
         word = "порция"
     case 2 | 3 | 4:
@@ -47,21 +33,34 @@ match count:
     case _:
         word = "порций"
 
-# Код скидки
-code = input("Код скидки (Enter - если нет): ")
+code = input("Код скидки (Enter - если нет): ").strip()
+
 match code:
     case "STUDENT":
         percent = 20
     case "":
         percent = 0
     case _:
-        print("⚠️ Такого кода нет, скидки не будет")
         percent = 0
+        print("⚠️ Такого кода нет, скидки не будет")
 
-# Расчёт
 total = price * count
 discount = total * percent // 100
-final = total - discount
+
+print(f"""
+╔══════════════════════════════╗
+║     {emoji} КВИТАНЦИЯ КАФЕ {emoji}     ║
+╚══════════════════════════════╝
+
+Товар: {name} {emoji}
+Цена за порцию: {price} руб
+Количество: {count} {word}
+Сумма: {total} руб
+Скидка ({percent}%): -{discount} руб
+
+════════════════════════════════
+💰 К ОПЛАТЕ: {total - discount} руб
+════════════════════════════════""")final = total - discount
 
 # Квитанция
 print("╔══════════════════════════════╗")
