@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Labs.Common</RootNamespace>
+    <AssemblyName>Labs.Common</AssemblyName>
+  </PropertyGroup>
+</Project>

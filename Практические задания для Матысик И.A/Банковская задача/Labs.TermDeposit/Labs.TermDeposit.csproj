@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Labs.TermDeposit</RootNamespace>
+    <AssemblyName>Labs.TermDeposit</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Labs.Common\Labs.Common.csproj" />
+  </ItemGroup>
+</Project>

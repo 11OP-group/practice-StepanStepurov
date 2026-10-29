@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Labs.Arena</RootNamespace>
+    <AssemblyName>Labs.Arena</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Labs.Common\Labs.Common.csproj" />
+  </ItemGroup>
+</Project>
