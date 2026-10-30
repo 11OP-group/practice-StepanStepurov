@@ -2,47 +2,51 @@
 
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Учебные проекты по программированию — Python, C#, .NET" width="100%">
+<img src="./assets/banner.svg" alt="Учебные проекты по программированию — СПб колледж электроники и информационных технологий, студент группы 11 ОП" width="100%">
 
 <br>
 
-<img src="./assets/keiit-logo.png" alt="Логотип СПб колледжа электроники и информационных технологий (КЭиИТ)" width="150">
+[![Колледж](https://img.shields.io/badge/КОЛЛЕДЖ-КЭиИТ_·_Санкт--Петербург-00b32c?style=for-the-badge&labelColor=000000)](#student)
+[![Группа](https://img.shields.io/badge/ГРУППА-11_ОП-00b32c?style=for-the-badge&labelColor=000000)](#student)
+[![Статус](https://img.shields.io/badge/СТАТУС-действующий_студент-00b32c?style=for-the-badge&labelColor=000000)](#student)
 
-# 💻 Учебные проекты по программированию
-
-**Санкт-Петербургский колледж электроники и информационных технологий (КЭиИТ)**<br>
-Студент группы **11 ОП** · Степан Степуров
-
-*Коллекция практических заданий и проектов на **Python** и **C#**: от первых условных операторов и циклов до объектно-ориентированных приложений.*
-
-<br>
-
-[![Колледж](https://img.shields.io/badge/Колледж-КЭиИТ_·_Санкт--Петербург-0b5ed7?style=for-the-badge)](#student)
-[![Группа](https://img.shields.io/badge/Группа-11_ОП-1f883d?style=for-the-badge)](#student)
-[![Статус](https://img.shields.io/badge/Статус-действующий_студент-8250df?style=for-the-badge)](#student)
-
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](#python)
-[![C#](https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)](#csharp)
-[![ООП](https://img.shields.io/badge/ООП-классы_и_объекты-2ea44f?style=flat-square)](#csharp)
-[![Алгоритмы](https://img.shields.io/badge/Основы-алгоритмизации-orange?style=flat-square)](#python)
-[![Последний коммит](https://img.shields.io/github/last-commit/11OP-group/practice-StepanStepurov?style=flat-square&label=последний_коммит)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
-[![Размер](https://img.shields.io/github/repo-size/11OP-group/practice-StepanStepurov?style=flat-square&label=размер)](https://github.com/11OP-group/practice-StepanStepurov)
+[![Python](https://img.shields.io/badge/PYTHON-3.x-00b32c?style=flat-square&labelColor=000000&logo=python&logoColor=00ff41)](#python)
+[![C#](https://img.shields.io/badge/C%23-.NET-00b32c?style=flat-square&labelColor=000000&logo=dotnet&logoColor=00ff41)](#csharp)
+[![ООП](https://img.shields.io/badge/ООП-классы_и_объекты-00b32c?style=flat-square&labelColor=000000)](#csharp)
+[![Алгоритмы](https://img.shields.io/badge/ОСНОВЫ-алгоритмизации-00b32c?style=flat-square&labelColor=000000)](#python)
+[![Последний коммит](https://img.shields.io/github/last-commit/11OP-group/practice-StepanStepurov?style=flat-square&labelColor=000000&color=00b32c&label=последний_коммит)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
+[![Размер](https://img.shields.io/github/repo-size/11OP-group/practice-StepanStepurov?style=flat-square&labelColor=000000&color=00b32c&label=размер)](https://github.com/11OP-group/practice-StepanStepurov)
 
 <br>
 
-[**🎓 Студент**](#student) &nbsp;·&nbsp;
-[**📖 О проекте**](#about) &nbsp;·&nbsp;
-[**📚 Содержание**](#contents) &nbsp;·&nbsp;
-[**🐍 Python**](#python) &nbsp;·&nbsp;
-[**⚙️ C#**](#csharp) &nbsp;·&nbsp;
-[**🗂️ Структура**](#structure) &nbsp;·&nbsp;
-[**🚀 Старт**](#quickstart) &nbsp;·&nbsp;
-[**▶️ Запуск**](#run) &nbsp;·&nbsp;
-[**❓ FAQ**](#faq)
+[![01](https://img.shields.io/badge/01-СТУДЕНТ-00b32c?style=for-the-badge&labelColor=000000)](#student)
+[![02](https://img.shields.io/badge/02-О_ПРОЕКТЕ-00b32c?style=for-the-badge&labelColor=000000)](#about)
+[![03](https://img.shields.io/badge/03-СОДЕРЖАНИЕ-00b32c?style=for-the-badge&labelColor=000000)](#contents)
+[![04](https://img.shields.io/badge/04-PYTHON-00b32c?style=for-the-badge&labelColor=000000)](#python)
+[![05](https://img.shields.io/badge/05-C%23-00b32c?style=for-the-badge&labelColor=000000)](#csharp)
+[![06](https://img.shields.io/badge/06-СТРУКТУРА-00b32c?style=for-the-badge&labelColor=000000)](#structure)
+
+[![07](https://img.shields.io/badge/07-СТАРТ-00b32c?style=for-the-badge&labelColor=000000)](#quickstart)
+[![08](https://img.shields.io/badge/08-ЗАПУСК-00b32c?style=for-the-badge&labelColor=000000)](#run)
+[![09](https://img.shields.io/badge/09-ПРИМЕРЫ-00b32c?style=for-the-badge&labelColor=000000)](#examples)
+[![10](https://img.shields.io/badge/10-GIT-00b32c?style=for-the-badge&labelColor=000000)](#git)
+[![11](https://img.shields.io/badge/11-FAQ-00b32c?style=for-the-badge&labelColor=000000)](#faq)
 
 </div>
 
----
+<br>
+
+```console
+root@keiit:~$ ./init --student
+[ OK ] Загрузка профиля .............. Степан Степуров
+[ OK ] Колледж ....................... Санкт-Петербургский колледж электроники и информационных технологий
+[ OK ] Группа ........................ 11 ОП
+[ OK ] Модули ........................ Python · C# · .NET · ООП
+[ OK ] Статус ........................ ACTIVE
+root@keiit:~$ _
+```
+
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="student"></a>
 
@@ -50,7 +54,7 @@
 
 <table>
 <tr>
-<td width="200" align="center"><img src="./assets/keiit-logo.png" alt="КЭиИТ" width="150"></td>
+<td width="300" align="center"><img src="./assets/keiit-logo.png" alt="Логотип СПб колледжа электроники и информационных технологий (КЭиИТ)" width="260"></td>
 <td>
 
 | | |
@@ -70,7 +74,7 @@
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="about"></a>
 
@@ -86,9 +90,11 @@
 | 🗓️ **Формат** | Практические работы, задания «в конце пары», итоговые проекты |
 | 🧭 **Принцип** | Одна тема — одна папка; рядом с кодом лежат материалы занятия |
 
+> **ООП** в этом README означает *объектно-ориентированное программирование* (классы и объекты), а не название группы. Группа — **11 ОП**.
+
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="contents"></a>
 
@@ -96,22 +102,23 @@
 
 | # | Раздел | Что внутри | Переход |
 |:-:|:--|:--|:-:|
-| 1 | 🎓 Визитка студента | Колледж, группа, статус, преподаватели | [→](#student) |
-| 2 | 📖 О проекте | Цели и формат репозитория | [→](#about) |
-| 3 | 🐍 Python | Практики № 1–9, задачи на логику, задания в конце пары | [→](#python) |
-| 4 | ⚙️ C# | Банковская задача, «Гладиатор», «Гладиатор через классы» | [→](#csharp) |
-| 5 | 🗂️ Структура | Дерево папок репозитория | [→](#structure) |
-| 6 | 🛠 Технологии | Стек и инструменты | [→](#stack) |
-| 7 | 🚀 Быстрый старт | Клонирование, ZIP, Codespaces | [→](#quickstart) |
-| 8 | ▶️ Запуск | Как запустить Python- и C#-проекты | [→](#run) |
-| 9 | 🧪 Примеры | Примеры ввода и вывода | [→](#examples) |
+| 01 | 🎓 Визитка студента | Колледж, группа, статус, преподаватели | [→](#student) |
+| 02 | 📖 О проекте | Цели и формат репозитория | [→](#about) |
+| 03 | 🐍 Python | Практики № 1–9, задачи на логику, задания в конце пары | [→](#python) |
+| 04 | ⚙️ C# | Банковская задача, «Гладиатор», «Гладиатор через классы» | [→](#csharp) |
+| 05 | 🗂️ Структура | Дерево папок репозитория | [→](#structure) |
+| 06 | 🛠 Технологии | Стек и инструменты | [→](#stack) |
+| 07 | 🚀 Быстрый старт | Клонирование, ZIP, Codespaces | [→](#quickstart) |
+| 08 | ▶️ Запуск | Как запустить Python- и C#-проекты | [→](#run) |
+| 09 | 🧪 Примеры | Примеры ввода и вывода | [→](#examples) |
 | 10 | 🗺️ Прогресс | Статус разделов | [→](#progress) |
-| 11 | ❓ FAQ | Частые вопросы | [→](#faq) |
-| 12 | ⚖️ Академическая честность | Как пользоваться материалами | [→](#integrity) |
+| 11 | 🌿 Git-шпаргалка | Основные команды и обновление репозитория | [→](#git) |
+| 12 | ❓ FAQ | Частые вопросы | [→](#faq) |
+| 13 | ⚖️ Академическая честность | Как пользоваться материалами | [→](#integrity) |
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="python"></a>
 
@@ -178,7 +185,7 @@
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="csharp"></a>
 
@@ -202,7 +209,7 @@
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="structure"></a>
 
@@ -211,9 +218,11 @@
 ```text
 practice-StepanStepurov/
 ├── README.md
-├── assets/
-│   ├── banner.svg                                   # шапка README
-│   └── keiit-logo.png                                 # логотип колледжа
+├── assets/                                          # оформление README
+│   ├── banner.svg                                   # главный баннер
+│   ├── divider.svg                                  # разделитель секций
+│   ├── footer.svg                                   # нижний баннер
+│   └── keiit-logo.png                               # логотип колледжа
 │
 ├── Практические задания для Ефимовой А.Н/           # 🐍 Python
 │   ├── README.md
@@ -234,16 +243,17 @@ practice-StepanStepurov/
         └── Гладиатор через классы
 ```
 
-| Условное обозначение | Значение |
+| Обозначение | Значение |
 |:-:|:--|
 | 🐍 | Раздел на Python |
 | ⚙️ | Раздел на C# |
 | `.py` | Исходный код Python |
 | `.pptx` | Презентации к занятиям |
+| `assets/` | Картинки для README, на запуск кода не влияют |
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="stack"></a>
 
@@ -262,7 +272,7 @@ practice-StepanStepurov/
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="quickstart"></a>
 
@@ -270,11 +280,11 @@ practice-StepanStepurov/
 
 <div align="center">
 
-[![Открыть репозиторий](https://img.shields.io/badge/Открыть-репозиторий-181717?style=for-the-badge&logo=github)](https://github.com/11OP-group/practice-StepanStepurov)
-[![Скачать ZIP](https://img.shields.io/badge/Скачать-ZIP-0b5ed7?style=for-the-badge&logo=files&logoColor=white)](https://github.com/11OP-group/practice-StepanStepurov/archive/refs/heads/main.zip)
-[![Codespaces](https://img.shields.io/badge/Открыть_в-Codespaces-2ea44f?style=for-the-badge&logo=github)](https://codespaces.new/11OP-group/practice-StepanStepurov)
-[![Веб-редактор](https://img.shields.io/badge/Веб--редактор-github.dev-8250df?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.dev/11OP-group/practice-StepanStepurov)
-[![История](https://img.shields.io/badge/История-коммитов-orange?style=for-the-badge&logo=git&logoColor=white)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
+[![Открыть репозиторий](https://img.shields.io/badge/ОТКРЫТЬ-репозиторий-00b32c?style=for-the-badge&labelColor=000000&logo=github&logoColor=00ff41)](https://github.com/11OP-group/practice-StepanStepurov)
+[![Скачать ZIP](https://img.shields.io/badge/СКАЧАТЬ-ZIP-00b32c?style=for-the-badge&labelColor=000000)](https://github.com/11OP-group/practice-StepanStepurov/archive/refs/heads/main.zip)
+[![Codespaces](https://img.shields.io/badge/ОТКРЫТЬ_В-Codespaces-00b32c?style=for-the-badge&labelColor=000000&logo=github&logoColor=00ff41)](https://codespaces.new/11OP-group/practice-StepanStepurov)
+[![Веб-редактор](https://img.shields.io/badge/ВЕБ--РЕДАКТОР-github.dev-00b32c?style=for-the-badge&labelColor=000000&logo=visualstudiocode&logoColor=00ff41)](https://github.dev/11OP-group/practice-StepanStepurov)
+[![История](https://img.shields.io/badge/ИСТОРИЯ-коммитов-00b32c?style=for-the-badge&labelColor=000000&logo=git&logoColor=00ff41)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
 
 </div>
 
@@ -289,7 +299,7 @@ cd practice-StepanStepurov
 
 ### Способ 2 — скачать архив
 
-Нажмите кнопку **«Скачать ZIP»** выше, распакуйте архив и откройте папку в редакторе кода.
+Нажмите кнопку **«СКАЧАТЬ ZIP»** выше, распакуйте архив и откройте папку в редакторе кода.
 
 ### Способ 3 — без установки
 
@@ -316,7 +326,7 @@ git --version
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="run"></a>
 
@@ -349,7 +359,7 @@ dotnet run
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="examples"></a>
 
@@ -422,7 +432,7 @@ dotnet run
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="progress"></a>
 
@@ -439,7 +449,39 @@ dotnet run
 
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
+
+<a id="git"></a>
+
+## 🌿 Git-шпаргалка
+
+| Действие | Команда |
+|:--|:--|
+| Клонировать репозиторий | `git clone https://github.com/11OP-group/practice-StepanStepurov.git` |
+| Посмотреть изменения | `git status` |
+| Добавить файлы | `git add .` |
+| Зафиксировать изменения | `git commit -m "Описание изменений"` |
+| Отправить на GitHub | `git push` |
+| Получить обновления | `git pull` |
+
+<details>
+<summary><b>Как добавить новое задание</b> (нажмите, чтобы раскрыть)</summary>
+
+<br>
+
+```bash
+git pull
+# положите файл в папку нужного занятия
+git add .
+git commit -m "Добавлено задание от 02.11.26"
+git push
+```
+
+</details>
+
+<p align="right"><a href="#top">⬆ Наверх</a></p>
+
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="faq"></a>
 
@@ -490,9 +532,18 @@ dotnet run
 
 </details>
 
+<details>
+<summary><b>Что означает ООП?</b></summary>
+
+<br>
+
+Объектно-ориентированное программирование — подход, в котором программа строится из классов и объектов. Это не название группы.
+
+</details>
+
 <p align="right"><a href="#top">⬆ Наверх</a></p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%">
 
 <a id="integrity"></a>
 
@@ -500,14 +551,13 @@ dotnet run
 
 Материалы репозитория созданы в учебных целях. Используйте их как справочник и ориентир, а свои работы выполняйте самостоятельно: так навык закрепляется лучше всего.
 
----
+<br>
 
 <div align="center">
 
-<img src="./assets/keiit-logo.png" alt="КЭиИТ" width="110">
+<img src="./assets/footer.svg" alt="SYSTEM ONLINE · КЭиИТ · студент группы 11 ОП · Степан Степуров · 2026" width="100%">
 
-**Санкт-Петербургский колледж электроники и информационных технологий**<br>
-Студент группы 11 ОП · Степан Степуров · 2026
+<br>
 
 [⬆ Вернуться наверх](#top) &nbsp;·&nbsp; [🎓 Визитка](#student) &nbsp;·&nbsp; [📚 Содержание](#contents) &nbsp;·&nbsp; [🏢 11OP-group](https://github.com/11OP-group)
 
