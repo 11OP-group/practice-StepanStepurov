@@ -6,31 +6,31 @@
 
 <br>
 
-[![Колледж](https://img.shields.io/badge/КОЛЛЕДЖ-КЭиИТ_·_Санкт--Петербург-00b32c?style=for-the-badge&labelColor=000000)](#student)
-[![Группа](https://img.shields.io/badge/ГРУППА-11_ОП-00b32c?style=for-the-badge&labelColor=000000)](#student)
-[![Статус](https://img.shields.io/badge/СТАТУС-действующий_студент-00b32c?style=for-the-badge&labelColor=000000)](#student)
+[![Колледж](https://img.shields.io/badge/КОЛЛЕДЖ-КЭиИТ_·_Санкт--Петербург-2f7bff?style=for-the-badge&labelColor=060a18)](#student)
+[![Группа](https://img.shields.io/badge/ГРУППА-11_ОП-2f7bff?style=for-the-badge&labelColor=060a18)](#student)
+[![Статус](https://img.shields.io/badge/СТАТУС-действующий_студент-2f7bff?style=for-the-badge&labelColor=060a18)](#student)
 
-[![Python](https://img.shields.io/badge/PYTHON-3.x-00b32c?style=flat-square&labelColor=000000&logo=python&logoColor=00ff41)](#python)
-[![C#](https://img.shields.io/badge/C%23-.NET-00b32c?style=flat-square&labelColor=000000&logo=dotnet&logoColor=00ff41)](#csharp)
-[![ООП](https://img.shields.io/badge/ООП-классы_и_объекты-00b32c?style=flat-square&labelColor=000000)](#csharp)
-[![Алгоритмы](https://img.shields.io/badge/ОСНОВЫ-алгоритмизации-00b32c?style=flat-square&labelColor=000000)](#python)
-[![Последний коммит](https://img.shields.io/github/last-commit/11OP-group/practice-StepanStepurov?style=flat-square&labelColor=000000&color=00b32c&label=последний_коммит)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
-[![Размер](https://img.shields.io/github/repo-size/11OP-group/practice-StepanStepurov?style=flat-square&labelColor=000000&color=00b32c&label=размер)](https://github.com/11OP-group/practice-StepanStepurov)
+[![Python](https://img.shields.io/badge/PYTHON-3.x-2f7bff?style=flat-square&labelColor=060a18&logo=python&logoColor=31d0ff)](#python)
+[![C#](https://img.shields.io/badge/C%23-.NET-2f7bff?style=flat-square&labelColor=060a18&logo=dotnet&logoColor=31d0ff)](#csharp)
+[![ООП](https://img.shields.io/badge/ООП-классы_и_объекты-2f7bff?style=flat-square&labelColor=060a18)](#csharp)
+[![Алгоритмы](https://img.shields.io/badge/ОСНОВЫ-алгоритмизации-2f7bff?style=flat-square&labelColor=060a18)](#python)
+[![Последний коммит](https://img.shields.io/github/last-commit/11OP-group/practice-StepanStepurov?style=flat-square&labelColor=060a18&color=2f7bff&label=последний_коммит)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
+[![Размер](https://img.shields.io/github/repo-size/11OP-group/practice-StepanStepurov?style=flat-square&labelColor=060a18&color=2f7bff&label=размер)](https://github.com/11OP-group/practice-StepanStepurov)
 
 <br>
 
-[![01](https://img.shields.io/badge/01-СТУДЕНТ-00b32c?style=for-the-badge&labelColor=000000)](#student)
-[![02](https://img.shields.io/badge/02-О_ПРОЕКТЕ-00b32c?style=for-the-badge&labelColor=000000)](#about)
-[![03](https://img.shields.io/badge/03-СОДЕРЖАНИЕ-00b32c?style=for-the-badge&labelColor=000000)](#contents)
-[![04](https://img.shields.io/badge/04-PYTHON-00b32c?style=for-the-badge&labelColor=000000)](#python)
-[![05](https://img.shields.io/badge/05-C%23-00b32c?style=for-the-badge&labelColor=000000)](#csharp)
-[![06](https://img.shields.io/badge/06-СТРУКТУРА-00b32c?style=for-the-badge&labelColor=000000)](#structure)
+[![01](https://img.shields.io/badge/01-СТУДЕНТ-2f7bff?style=for-the-badge&labelColor=060a18)](#student)
+[![02](https://img.shields.io/badge/02-О_ПРОЕКТЕ-2f7bff?style=for-the-badge&labelColor=060a18)](#about)
+[![03](https://img.shields.io/badge/03-СОДЕРЖАНИЕ-2f7bff?style=for-the-badge&labelColor=060a18)](#contents)
+[![04](https://img.shields.io/badge/04-PYTHON-2f7bff?style=for-the-badge&labelColor=060a18)](#python)
+[![05](https://img.shields.io/badge/05-C%23-2f7bff?style=for-the-badge&labelColor=060a18)](#csharp)
+[![06](https://img.shields.io/badge/06-СТРУКТУРА-2f7bff?style=for-the-badge&labelColor=060a18)](#structure)
 
-[![07](https://img.shields.io/badge/07-СТАРТ-00b32c?style=for-the-badge&labelColor=000000)](#quickstart)
-[![08](https://img.shields.io/badge/08-ЗАПУСК-00b32c?style=for-the-badge&labelColor=000000)](#run)
-[![09](https://img.shields.io/badge/09-ПРИМЕРЫ-00b32c?style=for-the-badge&labelColor=000000)](#examples)
-[![10](https://img.shields.io/badge/10-GIT-00b32c?style=for-the-badge&labelColor=000000)](#git)
-[![11](https://img.shields.io/badge/11-FAQ-00b32c?style=for-the-badge&labelColor=000000)](#faq)
+[![07](https://img.shields.io/badge/07-СТАРТ-2f7bff?style=for-the-badge&labelColor=060a18)](#quickstart)
+[![08](https://img.shields.io/badge/08-ЗАПУСК-2f7bff?style=for-the-badge&labelColor=060a18)](#run)
+[![09](https://img.shields.io/badge/09-ПРИМЕРЫ-2f7bff?style=for-the-badge&labelColor=060a18)](#examples)
+[![10](https://img.shields.io/badge/10-GIT-2f7bff?style=for-the-badge&labelColor=060a18)](#git)
+[![11](https://img.shields.io/badge/11-FAQ-2f7bff?style=for-the-badge&labelColor=060a18)](#faq)
 
 </div>
 
@@ -45,6 +45,48 @@ root@keiit:~$ ./init --student
 [ OK ] Статус ........................ ACTIVE
 root@keiit:~$ _
 ```
+
+<img src="./assets/divider.svg" alt="" width="100%">
+
+<div align="center">
+
+[![Сайт](https://img.shields.io/badge/САЙТ-визитка-7c5cff?style=for-the-badge&labelColor=060a18)](https://11op-group.github.io/practice-StepanStepurov/)
+[![ВКонтакте](https://img.shields.io/badge/ВКонтакте-5tepa7g-0077ff?style=for-the-badge&logo=vk&logoColor=white&labelColor=060a18)](https://vk.ru/5tepa7g)
+[![Telegram](https://img.shields.io/badge/Telegram-Stepa7g-26a5e4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=060a18)](https://t.me/Stepa7g)
+[![VPN](https://img.shields.io/badge/5TEPA7G_VPN-бот-31d0ff?style=for-the-badge&logo=telegram&logoColor=white&labelColor=060a18)](https://t.me/VPN5tepa7g)
+
+</div>
+
+<a id="vpn"></a>
+
+## 🛡️ 5TEPA7G VPN — свой сервис
+
+<table>
+<tr>
+<td width="220" align="center"><img src="./docs/assets/logo.webp" alt="Логотип 5TEPA7G VPN" width="200"></td>
+<td>
+
+| | |
+|:--|:--|
+| 🛡️ **Сервис** | 5TEPA7G VPN — быстрый и простой VPN |
+| 🤖 **Подключение** | [t.me/VPN5tepa7g](https://t.me/VPN5tepa7g) |
+| 💬 **Telegram автора** | [t.me/Stepa7g](https://t.me/Stepa7g) |
+| 🔵 **ВКонтакте** | [vk.ru/5tepa7g](https://vk.ru/5tepa7g) |
+| 🌐 **Сайт-визитка** | [https://11op-group.github.io/practice-StepanStepurov/](https://11op-group.github.io/practice-StepanStepurov/) |
+
+</td>
+</tr>
+</table>
+
+### 🪧 Билборды
+
+<img src="./assets/billboard-01.svg" alt="Билборд 1" width="100%">
+<img src="./assets/billboard-02.svg" alt="Билборд 2" width="100%">
+<img src="./assets/billboard-03.svg" alt="Билборд 3" width="100%">
+<img src="./assets/billboard-04.svg" alt="Билборд 4" width="100%">
+<img src="./assets/billboard-05.svg" alt="Билборд 5" width="100%">
+
+<p align="right"><a href="#top">⬆ Наверх</a></p>
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
@@ -102,6 +144,7 @@ root@keiit:~$ _
 
 | # | Раздел | Что внутри | Переход |
 |:-:|:--|:--|:-:|
+| 00 | 🛡️ 5TEPA7G VPN и контакты | VK, Telegram, билборды | [→](#vpn) |
 | 01 | 🎓 Визитка студента | Колледж, группа, статус, преподаватели | [→](#student) |
 | 02 | 📖 О проекте | Цели и формат репозитория | [→](#about) |
 | 03 | 🐍 Python | Практики № 1–9, задачи на логику, задания в конце пары | [→](#python) |
@@ -218,10 +261,12 @@ root@keiit:~$ _
 ```text
 practice-StepanStepurov/
 ├── README.md
+├── docs/                                            # 🌐 сайт-визитка (GitHub Pages)
 ├── assets/                                          # оформление README
 │   ├── banner.svg                                   # главный баннер
 │   ├── divider.svg                                  # разделитель секций
 │   ├── footer.svg                                   # нижний баннер
+│   ├── billboard-01…05.svg                          # билборды 5TEPA7G VPN
 │   ├── keiit-logo.png                               # логотип колледжа
 │   └── social-preview.png                           # картинка для превью ссылки (1280×640)
 │
@@ -281,11 +326,11 @@ practice-StepanStepurov/
 
 <div align="center">
 
-[![Открыть репозиторий](https://img.shields.io/badge/ОТКРЫТЬ-репозиторий-00b32c?style=for-the-badge&labelColor=000000&logo=github&logoColor=00ff41)](https://github.com/11OP-group/practice-StepanStepurov)
-[![Скачать ZIP](https://img.shields.io/badge/СКАЧАТЬ-ZIP-00b32c?style=for-the-badge&labelColor=000000)](https://github.com/11OP-group/practice-StepanStepurov/archive/refs/heads/main.zip)
-[![Codespaces](https://img.shields.io/badge/ОТКРЫТЬ_В-Codespaces-00b32c?style=for-the-badge&labelColor=000000&logo=github&logoColor=00ff41)](https://codespaces.new/11OP-group/practice-StepanStepurov)
-[![Веб-редактор](https://img.shields.io/badge/ВЕБ--РЕДАКТОР-github.dev-00b32c?style=for-the-badge&labelColor=000000&logo=visualstudiocode&logoColor=00ff41)](https://github.dev/11OP-group/practice-StepanStepurov)
-[![История](https://img.shields.io/badge/ИСТОРИЯ-коммитов-00b32c?style=for-the-badge&labelColor=000000&logo=git&logoColor=00ff41)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
+[![Открыть репозиторий](https://img.shields.io/badge/ОТКРЫТЬ-репозиторий-2f7bff?style=for-the-badge&labelColor=060a18&logo=github&logoColor=31d0ff)](https://github.com/11OP-group/practice-StepanStepurov)
+[![Скачать ZIP](https://img.shields.io/badge/СКАЧАТЬ-ZIP-2f7bff?style=for-the-badge&labelColor=060a18)](https://github.com/11OP-group/practice-StepanStepurov/archive/refs/heads/main.zip)
+[![Codespaces](https://img.shields.io/badge/ОТКРЫТЬ_В-Codespaces-2f7bff?style=for-the-badge&labelColor=060a18&logo=github&logoColor=31d0ff)](https://codespaces.new/11OP-group/practice-StepanStepurov)
+[![Веб-редактор](https://img.shields.io/badge/ВЕБ--РЕДАКТОР-github.dev-2f7bff?style=for-the-badge&labelColor=060a18&logo=visualstudiocode&logoColor=31d0ff)](https://github.dev/11OP-group/practice-StepanStepurov)
+[![История](https://img.shields.io/badge/ИСТОРИЯ-коммитов-2f7bff?style=for-the-badge&labelColor=060a18&logo=git&logoColor=31d0ff)](https://github.com/11OP-group/practice-StepanStepurov/commits/main)
 
 </div>
 
