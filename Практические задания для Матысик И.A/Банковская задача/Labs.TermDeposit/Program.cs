@@ -1,46 +1,66 @@
-using System;
-using Labs.Common.Journal;
-using Labs.Common.Terminal;
-using Labs.TermDeposit.Accrual;
-using Labs.TermDeposit.Input;
-using Labs.TermDeposit.Pricing;
-using Labs.TermDeposit.Presentation;
+﻿using System;
+using System.Globalization;
+using System.Text;
 
 namespace Labs.TermDeposit
 {
-    /// <summary>Корень композиции приложения «Банковская задача».</summary>
-    internal static class Program
+    internal class Program
     {
-        private const int ExitOk = 0;
-        private const int ExitInputClosed = 1;
-        private const int ExitFailure = 2;
-
-        private static int Main()
+        private static void Main()
         {
-            IEventJournal journal = new FileEventJournal("term-deposit");
+            Console.OutputEncoding = Encoding.UTF8;
+            CultureInfo culture = new CultureInfo("ru-RU");
+            double sum;
+            int days;
+            double annualRate;
 
-            try
+            while (true)
             {
-                var session = new DepositSession(
-                    new DepositConsoleView(),
-                    new DepositRequestCollector(new SystemTerminalDialog(), new FixedRateCatalogue(), journal),
-                    new MonthlyCapitalizationEngine(journal),
-                    journal);
+                try
+                {
+                    Console.Write("Введите сумму вклада: ");
+                    sum = Math.Round(Convert.ToDouble(Console.ReadLine()), 2);
+                    Console.Write("Введите срок вклада: ");
+                    days = Convert.ToInt32(Console.ReadLine());
 
-                session.Run();
-                return ExitOk;
+                    if (days == 91) annualRate = 11.5;
+                    else if (days == 181) annualRate = 11.75;
+                    else if (days == 365) annualRate = 12.5;
+                    else
+                    {
+                        Console.WriteLine("Недопустимый срок вклада!");
+                        continue;
+                    }
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Введены не числа! Повторите ввод.");
+                }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("Введено слишком большое число. Повторите ввод.");
+                }
             }
-            catch (InputStreamClosedException ex)
+
+            double monthRate = Math.Round(annualRate / 12, 3);
+            double totalInterest = 0;
+            Console.WriteLine("\nВаш процент составляет {0}%", annualRate);
+            Console.WriteLine("Ставка в месяц: {0}%", monthRate);
+
+            for (int month = 1; month <= days / 30; month++)
             {
-                journal.Warn(ex.Message);
-                return ExitInputClosed;
+                double interest = sum * (monthRate / 100);
+                sum = Math.Round(sum + interest, 2);
+                totalInterest += interest;
+                Console.WriteLine("{0}) Сумма на вкладе: {1} |{2}|", month,
+                    sum.ToString("C", culture), interest.ToString("C", culture));
             }
-            catch (Exception ex)
-            {
-                journal.Error("Необработанный сбой приложения.", ex);
-                Console.Error.WriteLine("Произошла непредвиденная ошибка. Подробности записаны в журнал.");
-                return ExitFailure;
-            }
+
+            Console.WriteLine("Итоговая сумма на вкладе: {0} |{1}|", sum.ToString("C", culture),
+                Math.Round(totalInterest, 2).ToString("C", culture));
+            Console.Write("Нажмите <Enter> для выхода...");
+            Console.ReadLine();
         }
     }
 }
